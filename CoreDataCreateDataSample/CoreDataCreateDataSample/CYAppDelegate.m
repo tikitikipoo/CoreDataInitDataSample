@@ -44,7 +44,6 @@
 	for (int i = 0; i <   actualCount; i++) {
 		NSArray * actualLine = [fields objectAtIndex:i];
         
-        // storyの場合は0
         NSString* str =[actualLine objectAtIndex:0];
         
         Tag* tag = [[CYDataManager sharedManager] insertNewTag];
